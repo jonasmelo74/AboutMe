@@ -25,5 +25,5 @@ const nav = document.querySelector(".nav"),
       {
         const href=element.getAttribute("href").split("#")
         target = href[1];
-        
+        console.log('funcionou')
       }
