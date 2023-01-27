@@ -21,6 +21,7 @@ const nav = document.querySelector(".nav"),
           }
           this.classList.add("active");
           showSection(this)
+          console.log('Teste')
         })
       }
       function showSection(element)
