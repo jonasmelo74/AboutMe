@@ -55,11 +55,30 @@ ul{
   overflow-y: auto;
   overflow-x: hidden;  
 }
+.section.back-section
+{
+  z-index: 1;
+}
 .section.active
 {
   z-index: 2;
   opacity: 1;
+  animation: slideSection 5s easy;
 }
+
+/* Não está funcionando */
+@keyframes slideSection
+{
+  0%
+  {
+    transform: translateX(100%);
+  }
+  100%
+  {
+    transform: translateX(0);
+  }
+}
+
 .hidden
 {
   display: none !important;
@@ -817,9 +836,14 @@ h3.my-profession
   {
     left: -270px;
   }
-  .main-content
+  .aside .nav-toggler
   {
-    padding-left: 0; 
+    display: flex;
+    left: 30px;
+  }
+  .section
+  {
+    left: 0;
   }
   .about .about-content .personal-info .info-item p span
   {
