@@ -38,6 +38,7 @@ function showSection(element) {
 }
 function updateNav(element)
 {
+  console.log(element.getAttribute("href"))
   for(let i = 0; i < totalNavList; i++)
   {
     navList[i].querySelector("a").classList.remove("active");
