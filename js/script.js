@@ -12,11 +12,13 @@ const nav = document.querySelector(".nav"),
   totalSection = allSection.length;
 for (let i = 0; i < totalNavList; i++) {
   const a = navList[i].querySelector("a");
+  console.log(a)
   a.addEventListener("click", function () {
    removeBackSection();
     for (let j = 0; j < totalNavList; j++) {
+      console.log(totalNavList)
       if (navList[j].querySelector("a").classList.contains("active")) {
-        addBackSection();
+        addBackSection(j);
         //allSection[j].classList.add("back-section");
       }
       navList[j].querySelector("a").classList.remove("active");
@@ -57,7 +59,7 @@ function updateNav(element)
 }
 document.querySelector(".hire-me").addEventListener("click", function () 
 {
-  const sectionIndex = this.getAttibute("data-section-index");
+  const sectionIndex = this.getAttribute("data-section-index");
   //console.log(sectionIndex);
   showSection(this);
   updateNav(this);
