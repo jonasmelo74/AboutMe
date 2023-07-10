@@ -66,26 +66,30 @@
   height: 30px;
   width: 30px;
   border-radius: 50%;
-  border: 1px solid red;
 }
 
 .style-switcher .color-1
 {
+  cursor: pointer;
   background: #ec1839;
 }
 .style-switcher .color-2
 {
+  cursor: pointer;
   background: #fa5b0f;
 }
 .style-switcher .color-3
 {
+  cursor: pointer;
   background: #317b82;
 }
 .style-switcher .color-4
 {
+  cursor: pointer;
   background: #1854b4;
 }
 .style-switcher .color-5
 {
+  cursor: pointer;
   background: #f021b2;
 }
