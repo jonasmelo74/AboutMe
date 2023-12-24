@@ -683,12 +683,24 @@ h3.my-profession
   font-weight: 500;
 }
 
+.portfolio .portfolio-heading h2 a
+{
+  color: var(--text-black-900);
+  text-decoration: underline;
+}
+
 .portfolio .portfolio-item
 {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
 }
+
+.portfolio .portfolio-item span
+{
+  color: var(--text-black-900);
+}
+
 
 .portfolio .portfolio-item-inner
 {
@@ -702,6 +714,7 @@ h3.my-profession
 {
   width: 100%;
   display: block;
+  height: 180px;
 }
 
 /* contact */
