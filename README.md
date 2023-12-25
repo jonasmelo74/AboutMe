@@ -1,4 +1,4 @@
-# Sobre Mim - Projeto "aboutme"
+# Projeto "aboutme"
 
 Bem-vindo ao meu espaço digital! Este é o projeto "aboutme", uma página pessoal criada para compartilhar mais sobre quem eu sou, minha jornada e habilidades.
 
