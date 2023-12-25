@@ -49,6 +49,6 @@ Sou [Seu Nome], [uma breve descrição sobre você].
 
 ---
 -->
-**GIF Demonstrativo (Substitua este link pelo seu GIF)**
+**GIF Demonstrativo
 
-![GIF Demonstrativo](https://github.com/jonasmelo74/AboutMe/images/Apresentação.gif)
+![animação](https://github.com/jonasmelo74/AboutMe/blob/master/images/Anima%C3%A7%C3%A3o.gif)
