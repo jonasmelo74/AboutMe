@@ -12,10 +12,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 - **JavaScript:** Adiciona interatividade à página, incluindo animações suaves e aprimoramentos dinâmicos.
 
-## Demonstração
-
-[Inclua aqui uma breve descrição sobre a funcionalidade do projeto e anexe um GIF demonstrativo para mostrar o projeto em ação.]
-
 ## Como Executar Localmente
 
 Se você quiser executar este projeto localmente, siga estas etapas:
