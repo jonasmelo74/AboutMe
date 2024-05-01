@@ -1,6 +1,9 @@
-# Projeto "aboutme"
+# Projeto AboutMe
 
 Bem-vindo ao meu espaço digital! Este é o projeto "aboutme", uma página pessoal criada para compartilhar mais sobre quem eu sou, minha jornada e habilidades.
+
+Link para o projeto:
+https://jonasmelo74.github.io/AboutMe/
 
 ## Tecnologias Utilizadas
 
