@@ -39,11 +39,17 @@ function addBackSection(num) {
 }
 
 function showSection(element) {
+  console.log(element);
   for (let i = 0; i < totalSection; i++) {
     allSection[i].classList.remove("active");
   }
   const target = element.getAttribute("href").split("#")[1];
-  document.querySelector("#" + target).classList.add("active");
+  const targetElement = document.querySelector("#" + target);
+  if(targetElement) {
+    targetElement.classList.add("active");
+  } else {
+    console.error('Elemento não encontrado: ', "#" + target);
+  }
 }
 
 function updateNav(element) {
