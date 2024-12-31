@@ -39,7 +39,6 @@ function addBackSection(num) {
 }
 
 function showSection(element) {
-  console.log(element);
   for (let i = 0; i < totalSection; i++) {
     allSection[i].classList.remove("active");
   }
